@@ -1,8 +1,13 @@
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}s
 #write{
     padding: 30px;
     margin: 0;
 }
-
 #navUl{
     padding: 10px;
 }
@@ -11,24 +16,29 @@ html, body{
     padding: 0;
     height: 100%;
     width: 100%;
-    background-color:azure;
+    background-color: azure;
+    font-family: "NEXON Lv1 Gothic OTF";
 }
 header { 
-    width: 10%; 
+    width: 15%; 
     height: 10%;
     float: left; 
     text-align: center; 
 }
 nav { 
-    width: 75%; 
+    width: 85%; 
     height: 10%; 
     float: left; 
 }
 article{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-left: 5%;
     margin-right: 5%;
     text-align: left;
-    width: 90%;
+    width: 80%;
     background-color: skyblue;
 }
 p {
@@ -37,12 +47,12 @@ p {
     text-indent: 20px;
 }
 section {
-    width: 60%;
+    width: 70%;
     height: 100%; 
     float: left; 
 }
 aside { 
-    width: 20%; 
+    width: 15%; 
     height: 130%; 
     float: left; 
 }
@@ -56,6 +66,7 @@ h1{
 }
 h2{
     padding: 10px;
+    text-align: center;
     color: skyblue;
 }
 a {
@@ -65,7 +76,7 @@ a {
 li{
     list-style-type: none;
     float: left;
-    border: solid 4px skyblue;
+    border: solid 2px skyblue;
     font-size: 20px;
     margin-left: 20px;
     margin-right: 20px;
